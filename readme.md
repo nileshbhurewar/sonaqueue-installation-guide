@@ -109,22 +109,23 @@ sudo apt install -y zip
 * Locate the latest download URL from [SonarQube official download page](https://www.sonarqube.org/downloads/).
 At the time of writing this document, the download URL was as follows: 
 ```bash
-https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.0.1.46107.zip
+https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.9.8.100196.zip
+
 ```
 
 * Download the SonarQube distribution files.
 ```bash
-sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.0.1.46107.zip
+sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.9.8.100196.zip
 ```
 
 * Unzip the downloaded file.
 ```bash
-sudo unzip sonarqube-9.0.1.46107.zip
+sudo unzip sonarqube-9.9.8.100196.zip
 ```
 
 * Move the unzipped files to `/opt/sonarqube` directory
 ```bash
-sudo mv sonarqube-9.0.1.46107 /opt/sonarqube
+sudo mv sonarqube-9.9.8.100196 /opt/sonarqube
 ```
 
 ## 5. Add SonarQube Group and User
