@@ -171,7 +171,7 @@ sudo nano /opt/sonarqube/conf/sonar.properties
 ```bash
 sudo nano /opt/sonarqube/bin/linux-x86-64/sonar.sh
 ```
->**Step 1:** About 50 lines down, locate this line.
+>**Step 1:** About 50 lines down, locate this line.(optional still work)
 >```
 >#RUN_AS_USER=
 >```
